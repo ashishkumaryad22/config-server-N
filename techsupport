@@ -1,5 +1,5 @@
 spring.data.mongodb.uri=mongodb://localhost:27017/admin
-server.port=9090
+server.port=8081
 spring.application.name=technical support service
 spring.cloud.compatibility-verifier.enabled=false
 spring.mvc.pathmatch.matching-strategy=ant_path_matcher
