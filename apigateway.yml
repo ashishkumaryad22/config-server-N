@@ -39,8 +39,9 @@ spring:
             - Path=/pharmacy/**
           filters:
             - RewritePath=/pharmacy(?<segment>/?.*), $\{segment}
+            
         - id: user-service
-          uri: http://localhost:8082
+          uri: http://localhost:8083
           predicates:
             - Path=/user/**
           filters:
